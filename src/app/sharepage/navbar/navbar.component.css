@@ -11,7 +11,7 @@
 }
 
 .navbar-nav .nav-link.active-link{
-    color: var(--primary-color);
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -19,3 +19,15 @@
     color: var(--secondary-color);
     font-weight: bold;
 }
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 25px;
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: #080707;
+  }

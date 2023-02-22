@@ -1,9 +1,9 @@
-
-
 .footer
-{
+{ 
     overflow: hidden;
-    background-color: aqua;
-    padding: 20px 10px;
+     background-color: #37517e;
+     top: 100%;
+     position:sticky;
+     padding: 20px 10px;
  
 }
